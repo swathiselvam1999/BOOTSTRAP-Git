@@ -38,6 +38,10 @@
   .pro button{
     margin: auto;
   }
+
+.pro .card{
+    background-color: lightgray;
+  }
   .pro .card:hover{
     background-color: gray;
     color: whitesmoke;
@@ -54,7 +58,8 @@
   }
 
   #contact{
-    border: 1px solid lightgray;
+    background-color: lightgray;
+    border: 1px solid gray;
     padding: 10px;
     margin-bottom: 10px;
 
@@ -74,10 +79,6 @@
   #contact textarea:hover{
     border: 1px solid rgb(255,153,0) ;
   }
-
-
-
-
 .footer {
     background-color: #f8f9fa;
     padding: 20px 0;
