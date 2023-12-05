@@ -43,6 +43,10 @@
     color: whitesmoke;
     cursor: pointer;
   }
+    #about{
+    padding: 10px;
+    text-align: justify;
+  }
 
   .carousel-inner img{
     width: 100%;
@@ -55,16 +59,22 @@
     margin-bottom: 10px;
 
   }
-  #about{
-    padding: 10px;
-    text-align: justify;
-  }
+  
 
     #contact:hover{
     background-color: lightgray;
     color: black;
 
   }
+
+#contact input:hover{
+    border: 1px solid rgb(255,153,0) ;
+  }
+
+  #contact textarea:hover{
+    border: 1px solid rgb(255,153,0) ;
+  }
+
 
 
 
