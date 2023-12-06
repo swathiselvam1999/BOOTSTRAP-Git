@@ -1,8 +1,4 @@
-/* body {
-    margin-bottom: 60px; 
-  } */
-
-  body{
+body{
     background: whitesmoke;
     overflow-x: hidden;
   }
@@ -12,10 +8,16 @@
   }
   #home .nav-link:hover{
     color: rgb(255,153,0);
+    cursor: pointer;
+    transform: scale(1.05); 
+    transition: transform 0.1s ease; 
   }
 
   #home .nav-item{
     justify-content: end;
+  }
+ #home .navbar-brand img:hover{
+    border: 1px solid whitesmoke;
   }
 
   #search{
@@ -41,11 +43,15 @@
 
 .pro .card{
     background-color: lightgray;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
   }
   .pro .card:hover{
     background-color: gray;
     color: whitesmoke;
     cursor: pointer;
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+    box-shadow: 10 10 15px rgba(0, 0, 0, 0.3); 
   }
     #about{
     padding: 10px;
@@ -67,18 +73,19 @@
   
 
     #contact:hover{
-    background-color: lightgray;
-    color: black;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
 
   }
 
 #contact input:hover{
     border: 1px solid rgb(255,153,0) ;
+     
   }
 
   #contact textarea:hover{
     border: 1px solid rgb(255,153,0) ;
   }
+
 .footer {
     background-color: #f8f9fa;
     padding: 20px 0;
